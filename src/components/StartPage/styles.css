@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:wght@100;400&display=swap');
+
+.bg-image {
+    width: 100%;
+    height: 100%;
+    background: 
+        linear-gradient(
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6)
+      ), 
+      url("./bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-image .container {
+    width: 100%;
+    height: 100%;
+    background: inherit;
+}
+
+.bg-image .container:before {
+    background: inherit;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    filter: blur(3px);
+}
+
+.navbar {
+    height: fit-content;
+    width: max-content;
+    position: absolute;
+    color: azure;
+    padding: 10px;
+}
+
+.navbar a {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.title{
+    width: fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: azure;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.title button {
+    background: 
+    linear-gradient(
+    rgba(0, 0, 0, 0.2), 
+    rgba(0, 0, 0, 0.2)
+    );
+    color: azure;
+    margin: 3px;
+    border: 0;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 8px;
+    rotate: 0deg;
+    font-size: 1.3rem;
+}
+.title button:hover {
+    background: 
+    linear-gradient(
+    rgba(0, 0, 0, 0.4), 
+    rgba(0, 0, 0, 0.4)
+    );
+}
+.title button:active {
+    transform: scale(0.99);
+}
+
