@@ -8,8 +8,10 @@ import News from './components/News';
 
 
 ReactDOM.render(
-   <StartPage />
-   <News />
+    <>
+    <StartPage />
+    <News />
+    </>
     , 
     document.getElementById('root')
 )
