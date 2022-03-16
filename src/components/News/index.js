@@ -1,72 +1,8 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Col } from 'react-bootstrap'
 import InfiniteScroll from 'react-infinite-scroll-component'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./styles.css"
-
-const news = [
-{
-  title: "Lorem Ipsum1",
-  description: "Lorem Ipsum1",
-  image: "./bg.jpg"
-},
-{
-  title: "Lorem Ipsum2",
-  description: "Lorem Ipsum2",
-  image: "./bg.jpg"
-},
-{
-  title: "Lorem Ipsum3",
-  description: "Lorem Ipsum3",
-  image: "./bg.jpg"
-},
-{
-  title: "Lorem Ipsum4",
-  description: "Lorem Ipsum4",
-  image: "./bg.jpg"
-},
-{
-  title: "Lorem Ipsum5",
-  description: "Lorem Ipsum5",
-  image: "./bg.jpg"
-},
-{
-  title: "Lorem Ipsum6",
-  description: "Lorem Ipsum6",
-  image: "./bg.jpg"
-},
-{
-  title: "Lorem Ipsum1",
-  description: "Lorem Ipsum1",
-  image: "./bg.jpg"
-},
-{
-  title: "Lorem Ipsum2",
-  description: "Lorem Ipsum2",
-  image: "./bg.jpg"
-},
-{
-  title: "Lorem Ipsum3",
-  description: "Lorem Ipsum3",
-  image: "./bg.jpg"
-},
-{
-  title: "Lorem Ipsum4",
-  description: "Lorem Ipsum4",
-  image: "./bg.jpg"
-},
-{
-  title: "Lorem Ipsum5",
-  description: "Lorem Ipsum5",
-  image: "./bg.jpg"
-},
-{
-  title: "Lorem Ipsum6",
-  description: "Lorem Ipsum6",
-  image: "./bg.jpg"
-},
-]
-
 
 
 export default function News() {
@@ -84,17 +20,11 @@ export default function News() {
   )
 }
 
-const style = {
-  height: 30,
-  border: "1px solid green",
-  margin: 6,
-  padding: 8
-};
 
 class NewsInfiniteScroll extends React.Component {
   state = {
     items: Array.from({ length: 40 }),
-    hasMore: true
+    hasMore: false
   };
 
   fetchMoreData = () => {
@@ -140,11 +70,14 @@ class NewsInfiniteScroll extends React.Component {
 }
 
 
-function Card() {
+function Card({ bgImg }) {
   return (
     <>
-    <div className="newsCard col-xs-11 col-sm-11 col-md-5 col-lg-3">
-      Test
+    <div className="newsCard col-xs-11 col-sm-11 col-md-5 col-lg-3" style={{backgroundImage: 'url(https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg)'}}>
+      <div className="blankDiv" />
+      <div className='cardText'>
+        Mewa
+      </div>
     </div>
     </>
   )
