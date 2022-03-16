@@ -1,10 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Col } from 'react-bootstrap'
 import InfiniteScroll from 'react-infinite-scroll-component'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./styles.css"
 
-
+function getWindowDimensions() {
+  const { innerWidth: width, innerHeight: height } = window;
+  return {
+    width,
+    height
+  };
+}
 export default function News() {
 
 
@@ -20,53 +26,42 @@ export default function News() {
   )
 }
 
-
-class NewsInfiniteScroll extends React.Component {
-  state = {
-    items: Array.from({ length: 40 }),
-    hasMore: false
-  };
-
-  fetchMoreData = () => {
-    if (this.state.items.length >= 500) {
-      this.setState({ hasMore: false });
+function NewsInfiniteScroll() {
+  const [items, setItems] = useState(Array.from({ length: 40 }))
+  const [hasMore, setHasMore] = useState(true)
+  const { height, width } = getWindowDimensions();
+  function fetchMoreData() {
+    if (items.length >= 90) {
+      setHasMore(false)
       return;
     }
     // a fake async api call like which sends
     // 20 more records in .5 secs
     setTimeout(() => {
-      this.setState({
-        items: this.state.items.concat(Array.from({ length: 20 }))
-      });
+      setItems([...items + Array.from({ length: 40 })])
     }, 500);
   };
-
-  render() {
-    return (
-      <div className='scrollDiv'>
-        <hr />
-        <InfiniteScroll className='infiniteScrollDiv row justify-content-around gx-0'
-          dataLength={this.state.items.length}
-          next={this.fetchMoreData}
-          hasMore={this.state.hasMore}
-          loader={<h4>Loading...</h4>}
-          height={620}
-          endMessage={
-            <p style={{ textAlign: "center" }}>
-              <b>Yay! You have seen it all</b>
-            </p>
-          }
-        >
-          {this.state.items.map((i, index) => (
-            <Card key={index}/>
-            // <div style={style} key={index}>
-            //   div - #{index}
-            // </div>
-          ))}
-        </InfiniteScroll>
-      </div>
-    );
-  }
+  return (
+    <div className='scrollDiv'>
+      <hr />
+      <InfiniteScroll className='infiniteScrollDiv row justify-content-around gx-0'
+        dataLength={items.length}
+        next={fetchMoreData}
+        hasMore={hasMore}
+        loader={<h4>Ładowanie...</h4>}
+        height={height - 110}
+        endMessage={
+          <p style={{ textAlign: "center" }}>
+            <b>Przejrzałeś już wszystkie aktualności.</b>
+          </p>
+        }
+      >
+        {items.map((i, index) => (
+          <Card key={index}/>
+        ))}
+      </InfiniteScroll>
+    </div>
+  );
 }
 
 
