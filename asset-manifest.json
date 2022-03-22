@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/watches/static/css/main.e0663809.css",
-    "main.js": "/watches/static/js/main.308ff0e8.js",
-    "static/media/bg.jpg": "/watches/static/media/bg.0c541283012c904c2706.jpg",
+    "main.css": "/watches/static/css/main.043d82ec.css",
+    "main.js": "/watches/static/js/main.05ab6013.js",
+    "static/media/bg.jpg": "/watches/static/media/bg.de7eb867ab68bbb97d14.jpg",
     "index.html": "/watches/index.html",
-    "main.e0663809.css.map": "/watches/static/css/main.e0663809.css.map",
-    "main.308ff0e8.js.map": "/watches/static/js/main.308ff0e8.js.map"
+    "main.043d82ec.css.map": "/watches/static/css/main.043d82ec.css.map",
+    "main.05ab6013.js.map": "/watches/static/js/main.05ab6013.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0663809.css",
-    "static/js/main.308ff0e8.js"
+    "static/css/main.043d82ec.css",
+    "static/js/main.05ab6013.js"
   ]
 }
