@@ -16,7 +16,7 @@ export default function News() {
 
   return (
     
-      <div className="news-bg" id='newsbg'>
+      <div className="news-bg" id='news'>
         <Col className='main'>
           <br />
           <h1>Aktualności</h1>
@@ -27,7 +27,7 @@ export default function News() {
 }
 
 function NewsInfiniteScroll() {
-  const [items, setItems] = useState(Array.from({ length: 40 }))
+  const [items, setItems] = useState(Array.from({ length: 10 }))
   const [hasMore, setHasMore] = useState(true)
   const { height, width } = getWindowDimensions();
   function fetchMoreData() {
@@ -49,7 +49,7 @@ function NewsInfiniteScroll() {
         next={fetchMoreData}
         hasMore={hasMore}
         loader={<h4>Ładowanie...</h4>}
-        height={height - 110}
+        height={height - 150}
         endMessage={
           <p style={{ textAlign: "center" }}>
             <b>Przejrzałeś już wszystkie aktualności.</b>
@@ -69,7 +69,6 @@ function Card({ bgImg }) {
   return (
     <>
     <div className="newsCard col-xs-11 col-sm-11 col-md-5 col-lg-3" style={{backgroundImage: 'url(https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg)'}}>
-      <div className="blankDiv" />
       <div className='cardText'>
         Mewa
       </div>

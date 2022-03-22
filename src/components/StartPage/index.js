@@ -1,7 +1,7 @@
 import React from 'react'
 import "./styles.css"
 
-export default function StartPage({ scrollToNews }) {
+export default function StartPage() {
 
  
   
@@ -12,17 +12,21 @@ export default function StartPage({ scrollToNews }) {
         <div className='container'>
         <div className='title'>
             <h1>Maciej Trzosek</h1>
-            <a href="#newsbg">
+            <a href="#news">
             <button>
               Aktualności
             </button>
             </a>   
+            <a href="#service">
             <button > 
               Serwis
             </button>
+            </a>
+            <a href="#contact">
             <button>
               Kontakt 
             </button>
+            </a>
         </div>
         </div>
     </div>
