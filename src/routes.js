@@ -1,19 +1,15 @@
-import StartPage from "./components/StartPage";
-import News from './components/News';
-import ContactForm from "./components/ContactForm";
-import Service from "./components/Service";
+// import StartPage from "./components/StartPage";
+// import News from './components/News';
+// import ContactForm from "./components/ContactForm";
+// import Service from "./components/Service";
 
-function App() {
+// function App() {
 
-  return (
-    <>
+//   return (
+//     <>
     
-    <StartPage/>
-    <News/>     
-    <ContactForm />
-    <Service />
-    </>
-  );
-}
+//     </>
+//   );
+// }
 
-export default App;
+// export default App;
