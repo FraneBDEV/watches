@@ -1,58 +1,18 @@
-.news-bg {
-    width: 100% !important;
-    height: 100%;
-    background: 
-        linear-gradient(
-        rgba(0, 0, 0, 0.6), 
-        rgba(0, 0, 0, 0.6)
-      ), 
-      url("./bg.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-    padding: 10px;
-}
-.main {
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    color: azure;
-}
-.main h1 {
-    text-align: center;
-}
-.newsCard {
-    position: relative;
-    color: black;
-    margin: 5px;
-    float: left;
-    background-color: azure;
-    height: 300px;
-    border-radius: 20px;
-    background-Position: center;
-    background-Size: cover;
-    background-Repeat: no-repeat;
-}
-.newsCard:hover {
-    transform: scale(1.01);
-}
-.cardText {
-    height: fit-content;
+.news {
     width: 100%;
-    position: absolute;
-    background: 
-        linear-gradient(
-        rgba(0, 0, 0, 0.6), 
-        rgba(0, 0, 0, 0.6)
-      );
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    color: azure;
-    text-align: center;
-    bottom: 0;
+    height: 100vh;
+    position: relative;
 }
-
-.infiniteScrollDiv {
-    overflow-x: hidden !important;
+img {
+    height: 100vh !important;
+    width: 100%;
+    object-fit: cover;
+}
+.caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: azure;
 }

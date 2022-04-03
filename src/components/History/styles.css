@@ -1,0 +1,42 @@
+.bio {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+.row {
+    margin: 0 !important;
+}
+.bio-image {
+    background-image: url('./maciek.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.bio-text {
+    position: relative;
+}
+.bio-card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: fit-content;
+    width: fit-content;
+    max-height: 100%;
+    max-width: 90%;
+    border-radius: 10px;
+    padding: 20px;
+    -webkit-box-shadow: -4px 4px 24px -4px rgb(0, 0, 0);
+    -moz-box-shadow: -4px 4px 24px -4px rgb(0, 0, 0);
+    box-shadow: -4px 4px 24px -4px rgb(0, 0, 0);
+    word-wrap: break-word;
+    overflow-y: auto;
+}
+.bio-card h1 {
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+.bio-card hr {
+    height: 2px;
+}
