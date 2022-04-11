@@ -8,7 +8,7 @@ const Gallery = React.lazy(() => import("./components/Gallery"))
 ReactDOM.render(
     <BrowserRouter>
       <Routes>
-      <Route path="/" element={<MainPage />} />
+      <Route exact path="/" element={<MainPage />} />
       <Route path="/gallery" element={
       <Suspense fallback={<div>Loading...</div>}>
         <Gallery />
