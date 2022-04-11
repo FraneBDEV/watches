@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/watches/static/css/main.f5eadd5e.css",
-    "main.js": "/watches/static/js/main.7226f6ed.js",
+    "main.js": "/watches/static/js/main.9b7f04e6.js",
     "static/css/85.b953a0bf.chunk.css": "/watches/static/css/85.b953a0bf.chunk.css",
     "static/js/85.dcda8699.chunk.js": "/watches/static/js/85.dcda8699.chunk.js",
     "static/media/maciek.png": "/watches/static/media/maciek.cff0ba540d0398167782.png",
@@ -12,12 +12,12 @@
     "static/media/bg.jpg": "/watches/static/media/bg.2fa52102b0d50cb9b4a1.jpg",
     "index.html": "/watches/index.html",
     "main.f5eadd5e.css.map": "/watches/static/css/main.f5eadd5e.css.map",
-    "main.7226f6ed.js.map": "/watches/static/js/main.7226f6ed.js.map",
+    "main.9b7f04e6.js.map": "/watches/static/js/main.9b7f04e6.js.map",
     "85.b953a0bf.chunk.css.map": "/watches/static/css/85.b953a0bf.chunk.css.map",
     "85.dcda8699.chunk.js.map": "/watches/static/js/85.dcda8699.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f5eadd5e.css",
-    "static/js/main.7226f6ed.js"
+    "static/js/main.9b7f04e6.js"
   ]
 }
