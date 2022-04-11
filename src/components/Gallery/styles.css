@@ -1,0 +1,14 @@
+.gallery hr {
+    height: 2px;
+}
+.gallery {
+    padding: 10px;
+    text-align: center;
+    overflow-x: hidden;
+}
+.gallery img {
+    transition: 200ms ease-out;
+}
+.gallery img:hover {
+    transform: scale(1.02);
+}

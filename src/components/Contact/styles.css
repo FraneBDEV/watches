@@ -24,9 +24,13 @@
     border-radius: 15px;
     color: azure;
     transition: 200ms;
+    cursor: pointer;
 }
 .map .phone:hover {
     background-color: rgb(102, 0, 128);
+}
+.map .phone:active {
+    transform: translate(-50%, -50%) scale(0.99);
 }
 .form {
     padding: 20px;
@@ -62,4 +66,10 @@
 .form .input-button:hover {
     text-decoration: underline;
     background-color: rgb(102, 0, 128);
+}
+.form .input-button:active {
+    transform: scale(0.98);
+}
+.row {
+    margin: 0;
 }

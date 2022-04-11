@@ -66,3 +66,16 @@
 .title button:active {
     transform: scale(0.99);
 }
+.creator {
+    position: absolute;
+    color: azure;
+    right: 0;
+    bottom: 0;
+    padding: 5px;
+}
+.creator a {
+    color: azure;
+}
+.creator a:hover {
+    color: azure;
+}

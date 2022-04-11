@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <div className='contact row' id='contact'>
         <div className="map col-lg-8">
-            <div className="phone">📞(+48) 502 909 763</div>
+            <div className="phone" onClick={() =>  navigator.clipboard.writeText('502909763')}>📞(+48) 502 909 763</div>
         </div>
         <div className="form col-lg-4">
             <h1>Kontakt</h1>

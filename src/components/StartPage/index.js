@@ -17,7 +17,7 @@ export default function StartPage() {
             </a>
             <a href="#news">
             <button>
-              Aktualności
+              Na temat
             </button>
             </a>          
             <a href="#contact">
@@ -30,12 +30,13 @@ export default function StartPage() {
               Serwis
             </button>
             </a>
-            <a href="">
+            <a href="/gallery">
               <button>
                 Galeria
               </button>
             </a>
         </div>
+        <b className='creator'>Designed and Created by <a href="https://github.com/FraneBDEV">FraneB</a></b>
         </div>
     </div>
     </>

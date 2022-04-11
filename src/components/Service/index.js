@@ -1,37 +1,41 @@
 import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./styles.css"
 
-function getWindowDimensions() {
-    const { innerWidth: width, innerHeight: height } = window;
-    return {
-      width,
-      height
-    };
-  }
+import certina from './certina.jpg'
+import hamilton from './hamilton.jpg'
+import longines from './longines.jpg'
+import omega from './omega.jpg'
+import tissot from './tissot.jpg'
 
 export default function Service() {
-    const { height, width } = getWindowDimensions();
   return (
-    <div className='service-bg' id='service'>
-        <div className="service-container row"> 
-            <div className="image">
-              <div className="text">
-                  <h1>Serwis</h1>
-                  <hr />
-                  <p>Szanowni Państwo, świadczymy pełny zakres usług następujących marek: </p>  
-                  <ul>
-                    <li>Longines</li>
-                    <li>Omega</li>
-                    <li>Certina</li>
-                    <li>Tissot</li>
-                    <li>Girard-Perregaux</li>
-                    <li>Breitling</li>
-                  </ul>
-                  <p>Dla wtajemniczonych - dorabiamy czopy.</p>
-                  <p>Wszelkie inne przypadki traktujemy z należytą uwagą. Naszym celem jest pozostanie w Państwa dobrej pamięci.</p>             
-              </div>
-            </div>
-        </div>       
+    <div className='service'>
+      <h1>Serwis</h1>
+      <hr />
+      <p className='b'>Jesteśmy certyfikowanym serwisem marek:</p>
+      <div className="logos-container">
+        <ul className='logos'>
+          <li>
+            <img src={certina} alt="" />
+          </li>
+          <li>
+            <img src={hamilton} alt="" />
+          </li>
+          <li>
+            <img src={longines} alt="" />
+          </li>
+        </ul>
+        <ul className='logos'>
+          <li>
+            <img src={omega} alt="" />
+          </li>
+          <li>
+            <img src={tissot} alt="" />
+          </li>
+        </ul>
+      </div>
+      <p>Oferujemy również naprawę; marek: ,costam ,costam ,costam; zegarów: sciennych, antycznych</p>
     </div>
   )
 }
