@@ -13,7 +13,7 @@ ReactDOM.render(
       <Suspense fallback={<div>Loading...</div>}>
         <Gallery />
       </Suspense>} />
-      <Route path="*" element={<NotFound />} />
+      {/* <Route path="*" element={<NotFound />} /> */}
       </Routes>
     </BrowserRouter>,
     document.getElementById('root')
