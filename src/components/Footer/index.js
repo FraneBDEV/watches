@@ -15,7 +15,7 @@ export default function Footer() {
         <br />
         <a href="#news">Aktualności</a>
         <br />
-        <a href="/watches/galery">Galeria</a>
+        <a href="/galery">Galeria</a>
         <br />
         <a href="#contact">Kontakt</a>
         <br />
