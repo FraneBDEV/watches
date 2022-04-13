@@ -9,7 +9,7 @@ ReactDOM.render(
     <BrowserRouter>
       <Routes>
       <Route exact path="/watches" element={<MainPage />} />
-      <Route path="/watches/gallery" element={
+      <Route path="/gallery" element={
       <Suspense fallback={<div>Loading...</div>}>
         <Gallery />
       </Suspense>} />
