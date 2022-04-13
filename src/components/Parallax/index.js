@@ -6,7 +6,7 @@ export default function Parallax() {
 
   return (
     <div className='parallax'>
-      <Link to='/gallery'><a><h1>Galeria</h1></a></Link>
+      <Link to='/gallery'><h1>Galeria</h1></Link>
     </div>
   )
 }
