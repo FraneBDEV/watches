@@ -30,7 +30,7 @@ export default function StartPage() {
               Serwis
             </button>
             </a>
-            <a href="/gallery">
+            <a href="/watches/gallery">
               <button>
                 Galeria
               </button>
