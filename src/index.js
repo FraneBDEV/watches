@@ -9,11 +9,11 @@ ReactDOM.render(
     <BrowserRouter>
       <Routes>
       <Route exact path="/watches" element={<MainPage />} />
-      <Route path="/gallery" element={
+      <Route path="/watches/gallery" element={
       <Suspense fallback={<div>Loading...</div>}>
         <Gallery />
       </Suspense>} />
-      {/* <Route path="*" element={<NotFound />} /> */}
+      <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>,
     document.getElementById('root')
