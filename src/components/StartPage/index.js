@@ -1,5 +1,6 @@
 import React from 'react'
 import "./styles.css"
+import { Link } from 'react-router-dom'
 
 export default function StartPage() {
 
@@ -30,11 +31,13 @@ export default function StartPage() {
               Serwis
             </button>
             </a>
-            <a href="/gallery">
+            <Link to='/gallery'>
+              <a>
               <button>
                 Galeria
               </button>
-            </a>
+              </a>
+            </Link>    
         </div>
         <b className='creator'>Designed and Created by <a href="https://github.com/FraneBDEV">FraneB</a></b>
         </div>

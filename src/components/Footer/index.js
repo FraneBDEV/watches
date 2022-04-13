@@ -1,6 +1,7 @@
 import React from 'react'
 import "./styles.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'react-router-dom'
 
 export default function Footer() {
   return (
@@ -15,7 +16,7 @@ export default function Footer() {
         <br />
         <a href="#news">Aktualności</a>
         <br />
-        <a href="/galery">Galeria</a>
+        <Link to='/gallery'><a>Galeria</a></Link>
         <br />
         <a href="#contact">Kontakt</a>
         <br />
