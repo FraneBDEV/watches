@@ -1,6 +1,7 @@
 import React from 'react'
 import "./styles.css"
 import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link';
 
 export default function StartPage() {
 
@@ -11,26 +12,26 @@ export default function StartPage() {
         <div className='container'>
         <div className='title'>
             <h1>Maciej Trzosek</h1>
-            <a href="#history">
-            <button>
-              Firma
-            </button>
-            </a>
-            <a href="#news">
-            <button>
-              Na temat
-            </button>
-            </a>          
-            <a href="#contact">
-            <button>
-              Kontakt 
-            </button>
-            </a>       
-            <a href="#service">
-            <button > 
-              Serwis
-            </button>
-            </a>
+            <HashLink to="#firm">
+              <button>
+                Firma
+              </button>
+            </HashLink>   
+            <HashLink to='#news'>
+              <button>
+                Na temat
+              </button>
+            </HashLink>
+            <HashLink to='#contact'>
+              <button>
+                Kontakt 
+              </button>
+            </HashLink>          
+            <HashLink to='#service'>
+              <button > 
+                Serwis
+              </button>
+            </HashLink>       
             <Link to='/gallery'>
               <a>
               <button>

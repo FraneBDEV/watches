@@ -2,6 +2,7 @@ import React from 'react'
 import "./styles.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link';
 
 export default function Footer() {
   return (
@@ -10,17 +11,17 @@ export default function Footer() {
         <p>
           Menu
         </p>
-        <a href="#home">Home</a>
+        <HashLink className='a' to='#home'>Home</HashLink>
         <br />
-        <a href="#history">Biografia</a>
+        <HashLink className='a' to='#firm'>Firma</HashLink>
         <br />
-        <a href="#news">Aktualności</a>
+        <HashLink className='a' to='#news'>Na Temat</HashLink>
         <br />
-        <Link to='/gallery'><a>Galeria</a></Link>
+        <Link className='a' to='/gallery'>Galeria</Link>
         <br />
-        <a href="#contact">Kontakt</a>
+        <HashLink className='a' to='#contact'>Kontakt</HashLink>
         <br />
-        <a href="#service">Serwis</a>
+        <HashLink className='a' to='#service'>Serwis</HashLink>
       </div>
       <div className="footer-item">
         <p>
@@ -31,6 +32,8 @@ export default function Footer() {
         🏠ul. Puławska 96 02-620 Warszawa
         <br />
         📩trzosekzegarmistrz@gmail.com
+        <br />
+        ✅pn-pt 10:00-18:00
       </div>
     </div>
   )

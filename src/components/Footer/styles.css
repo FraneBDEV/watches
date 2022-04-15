@@ -15,8 +15,12 @@
     margin: 0;
     text-align: center;
 }
-.footer-item a {
+.footer-item .a {
+    text-decoration: none;
     color: azure;
+}
+.footer-item .a:hover {
+    text-decoration: underline;
 }
 
 @media only screen and (max-width: 256px) {

@@ -10,7 +10,7 @@ import tissot from './tissot.jpg'
 
 export default function Service() {
   return (
-    <div className='service'>
+    <div className='service' id='service'>
       <h1>Serwis</h1>
       <hr />
       <p className='b'>Jesteśmy certyfikowanym serwisem marek:</p>
@@ -35,7 +35,7 @@ export default function Service() {
           </li>
         </ul>
       </div>
-      <p>Oferujemy również naprawę; marek: ,costam ,costam ,costam; zegarów: sciennych, antycznych</p>
+      <p>Mili Państwo, zapraszamy ze wszystkimi innymi markami zegarków, które potrzebują fachowej pomocy. Na wykonane usługi udzielamy 2 letniej gwarancji.</p>
     </div>
   )
 }
