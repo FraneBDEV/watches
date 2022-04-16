@@ -1,22 +1,27 @@
 {
   "files": {
-    "main.css": "/watches/static/css/main.32c68bb2.css",
-    "main.js": "/watches/static/js/main.f246d88d.js",
+    "main.css": "/watches/static/css/main.182750d4.css",
+    "main.js": "/watches/static/js/main.552f8063.js",
     "static/css/85.b953a0bf.chunk.css": "/watches/static/css/85.b953a0bf.chunk.css",
-    "static/js/85.dcda8699.chunk.js": "/watches/static/js/85.dcda8699.chunk.js",
+    "static/js/85.27c6db21.chunk.js": "/watches/static/js/85.27c6db21.chunk.js",
     "static/media/bg.png": "/watches/static/media/bg.0a3ace3626c89299936e.png",
     "static/media/image3.jpg": "/watches/static/media/image3.ed0a5ef28f3b8d515fc7.jpg",
     "static/media/image2.jpg": "/watches/static/media/image2.de67787696dec2f57f72.jpg",
     "static/media/image1.jpg": "/watches/static/media/image1.f2e59a92d4dec2788e1f.jpg",
     "static/media/bg.jpg": "/watches/static/media/bg.2fa52102b0d50cb9b4a1.jpg",
+    "static/media/maciej.jpg": "/watches/static/media/maciej.fca161e3f1c8b79765d2.jpg",
+    "static/media/image5.jpg": "/watches/static/media/image5.7ca6b02e7e3abb3a61c9.jpg",
+    "static/media/image4.jpg": "/watches/static/media/image4.4727bb6d0c754915e0ae.jpg",
+    "static/media/image6.jpg": "/watches/static/media/image6.3c48913310e742de86f3.jpg",
+    "static/media/image7.jpg": "/watches/static/media/image7.e7c1f5dc33d3ab153928.jpg",
     "index.html": "/watches/index.html",
-    "main.32c68bb2.css.map": "/watches/static/css/main.32c68bb2.css.map",
-    "main.f246d88d.js.map": "/watches/static/js/main.f246d88d.js.map",
+    "main.182750d4.css.map": "/watches/static/css/main.182750d4.css.map",
+    "main.552f8063.js.map": "/watches/static/js/main.552f8063.js.map",
     "85.b953a0bf.chunk.css.map": "/watches/static/css/85.b953a0bf.chunk.css.map",
-    "85.dcda8699.chunk.js.map": "/watches/static/js/85.dcda8699.chunk.js.map"
+    "85.27c6db21.chunk.js.map": "/watches/static/js/85.27c6db21.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.32c68bb2.css",
-    "static/js/main.f246d88d.js"
+    "static/css/main.182750d4.css",
+    "static/js/main.552f8063.js"
   ]
 }
