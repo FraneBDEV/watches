@@ -3,7 +3,7 @@
     width: 100%;
 }
 .firm .image {
-    background-image: url('./maciej.jpg');
+    background-image: url('./maciej.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,6 +22,9 @@
     overflow-y: auto;
     height: fit-content;
     max-height: 100vh;
+}
+.firm .bio .text p {
+    text-align: justify;
 }
 @media (max-width: 768px) {
     .firm .bio .text {

@@ -6,7 +6,7 @@ function importAll(r) {
   return r.keys().map(r);
 }
 
-const images = importAll(require.context('./Photos', false, /\.(png|jpe?g|svg)$/));
+const images = importAll(require.context('./Photos', false, /\.(png|jpe?g|svg|webp)$/));
 
 console.log(images)
 
@@ -33,7 +33,7 @@ export default function Gallery() {
             <img
             src={item}
             className="w-100 shadow-1-strong rounded mb-4"
-            alt="Boat on Calm Water"
+            alt='img'
             key={item}
           />
           ))
@@ -46,7 +46,7 @@ export default function Gallery() {
             <img
             src={item}
             className="w-100 shadow-1-strong rounded mb-4"
-            alt="Boat on Calm Water"
+            alt='img'
             key={item}
           />
           ))
@@ -59,7 +59,7 @@ export default function Gallery() {
             <img
             src={item}
             className="w-100 shadow-1-strong rounded mb-4"
-            alt="Boat on Calm Water"
+            alt='img'
             key={item}
           />
           ))

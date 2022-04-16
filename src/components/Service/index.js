@@ -2,11 +2,11 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./styles.css"
 
-import certina from './certina.jpg'
-import hamilton from './hamilton.jpg'
-import longines from './longines.jpg'
-import omega from './omega.jpg'
-import tissot from './tissot.jpg'
+import certina from './certina.webp'
+import hamilton from './hamilton.webp'
+import longines from './longines.webp'
+import omega from './omega.webp'
+import tissot from './tissot.webp'
 
 export default function Service() {
   return (
@@ -35,7 +35,7 @@ export default function Service() {
           </li>
         </ul>
       </div>
-      <p>Zapraszamy ze wszystkimi innymi markami zegarków, które potrzebują fachowej pomocy. Na wykonane usługi udzielamy <b>2 letniej gwarancji</b>.</p>
+      <p style={{fontFamily: 'Orbitron'}}>Zapraszamy ze wszystkimi innymi markami zegarków, które potrzebują fachowej pomocy. Na wykonane usługi udzielamy 2 letniej gwarancji.</p>
     </div>
   )
 }
