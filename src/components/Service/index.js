@@ -35,7 +35,7 @@ export default function Service() {
           </li>
         </ul>
       </div>
-      <p>Mili Państwo, zapraszamy ze wszystkimi innymi markami zegarków, które potrzebują fachowej pomocy. Na wykonane usługi udzielamy 2 letniej gwarancji.</p>
+      <p>Zapraszamy ze wszystkimi innymi markami zegarków, które potrzebują fachowej pomocy. Na wykonane usługi udzielamy <b>2 letniej gwarancji</b>.</p>
     </div>
   )
 }

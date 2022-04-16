@@ -1,56 +1,69 @@
 import React from 'react'
 import './styles.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import image1 from './Photos/image1.jpg'
-import image2 from './Photos/image2.jpg'
-import image3 from './Photos/image3.jpg'
+
+function importAll(r) {
+  return r.keys().map(r);
+}
+
+const images = importAll(require.context('./Photos', false, /\.(png|jpe?g|svg)$/));
+
+console.log(images)
+
+
+const threePartIndex = Math.ceil(images.length / 3);
+
+const thirdPart = images.splice(-threePartIndex);
+const secondPart = images.splice(-threePartIndex);
+const firstPart = images;     
+
+console.log(firstPart); 
+console.log(secondPart);
+console.log(thirdPart); 
 
 export default function Gallery() {
   return (
     <div className='gallery'>
       <h1>Galeria</h1>
       <hr />
-      <div class="row">
-        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-          <img
-            src={image1}
-            class="w-100 shadow-1-strong rounded mb-4"
+      <div className="row">
+        <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
+        {
+          thirdPart.map(item => (
+            <img
+            src={item}
+            className="w-100 shadow-1-strong rounded mb-4"
             alt="Boat on Calm Water"
+            key={item}
           />
-
-          <img
-            src={image2}
-            class="w-100 shadow-1-strong rounded mb-4"
-            alt="Wintry Mountain Landscape"
-          />
+          ))
+        }
         </div>
 
-        <div class="col-lg-4 mb-4 mb-lg-0">
-          <img
-            src={image3}
-            class="w-100 shadow-1-strong rounded mb-4"
-            alt="Mountains in the Clouds"
-          />
-
-          <img
-            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-            class="w-100 shadow-1-strong rounded mb-4"
+        <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
+        {
+          secondPart.map(item => (
+            <img
+            src={item}
+            className="w-100 shadow-1-strong rounded mb-4"
             alt="Boat on Calm Water"
+            key={item}
           />
+          ))
+        }
         </div>
 
-        <div class="col-lg-4 mb-4 mb-lg-0">
-          <img
-            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
-            class="w-100 shadow-1-strong rounded mb-4"
-            alt="Waves at Sea"
+        <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
+        {
+          firstPart.map(item => (
+            <img
+            src={item}
+            className="w-100 shadow-1-strong rounded mb-4"
+            alt="Boat on Calm Water"
+            key={item}
           />
-
-          <img
-            src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
-            class="w-100 shadow-1-strong rounded mb-4"
-            alt="Yosemite National Park"
-          />
+          ))
+        }
         </div>
       </div>
     </div>
