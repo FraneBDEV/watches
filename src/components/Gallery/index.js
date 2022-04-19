@@ -8,18 +8,11 @@ function importAll(r) {
 
 const images = importAll(require.context('./Photos', false, /\.(png|jpe?g|svg|webp)$/));
 
-console.log(images)
-
-
 const threePartIndex = Math.ceil(images.length / 3);
 
 const thirdPart = images.splice(-threePartIndex);
 const secondPart = images.splice(-threePartIndex);
 const firstPart = images;     
-
-console.log(firstPart); 
-console.log(secondPart);
-console.log(thirdPart); 
 
 export default function Gallery() {
   return (

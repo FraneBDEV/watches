@@ -21,7 +21,9 @@ export default function Contact() {
                 <br />
                 <textarea className='input message' name="message" placeholder='Wiadomość' required/>
                 <br />
-                <button className='input-button' type="submit">Wyślij</button>
+                <div className="form-btn-container">
+                    <button className='input-button' type="submit">Wyślij</button>
+                </div>  
             </form>
         </div>
     </div>

@@ -33,11 +33,9 @@ export default function StartPage() {
               </button>
             </HashLink>       
             <Link to='/gallery'>
-              <a>
               <button>
                 Galeria
               </button>
-              </a>
             </Link>    
         </div>
         <b className='creator'>Designed and Created by <a href="https://github.com/FraneBDEV">FraneB</a></b>

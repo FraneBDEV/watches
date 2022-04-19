@@ -1,5 +1,6 @@
 
 .service {
+    position: relative;
     width: 100%;
     height: fit-content;
     padding: 20px;
@@ -24,4 +25,13 @@
 .logos li {
     display: inline-block;
     margin-bottom: 40px;
+}
+.service .carousel {
+    margin-inline: auto;
+    width: fit-content;
+}
+.service .carousel-item img {
+    height: 500px;
+    max-width: 90vw;
+    object-fit: contain;
 }

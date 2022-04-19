@@ -44,24 +44,45 @@
     padding: 10px;
     margin: 10px;
     border: 0;
-    border-bottom: 2px solid rgb(216, 216, 216);
+    /* border-bottom: 2px solid rgb(216, 216, 216); */
     border-radius: 1px;
-    transition: 200ms;
+    border-left: 2px solid rgb(216, 216, 216);
+    transition: background-size 300ms;
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(0,3,255,1) 100%);
+    background-size: 0% 2px;
+    background-repeat: no-repeat;
+    background-position: bottom left;
 }
 .form .input:focus {
+    border: 0;
+    margin-left: 14px;
+    background-size: 100% 2px;
     outline: 0;
-    border-bottom: 2px solid rgb(102, 0, 128);
+    /* border-bottom: 2px solid rgb(102, 0, 128); */
+}
+.form .form-btn-container {
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(0,3,255,1) 100%);
+    background-size: 0% 0%;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    width: fit-content;
+    margin-inline: auto;
+    transition: background-size 300ms;
+}
+.form .form-btn-container:hover {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: bottom left;
 }
 .form .input-button {
-    margin-top: 5px;
+    margin: 2px;
     padding: 8px;
     padding-left: 25px;
     padding-right: 25px;
     border: 0;
     background-color: rgb(51, 138, 24);
     color: azure;
-    border-radius: 15px;
-    transition: 200ms;
+    transition: 300ms;
 }
 .form .input-button:hover {
     text-decoration: underline;
