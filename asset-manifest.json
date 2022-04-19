@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/watches/static/css/main.ac3f70e8.css",
-    "main.js": "/watches/static/js/main.698853e5.js",
+    "main.css": "/watches/static/css/main.49d6d458.css",
+    "main.js": "/watches/static/js/main.bf196151.js",
     "static/css/85.b953a0bf.chunk.css": "/watches/static/css/85.b953a0bf.chunk.css",
-    "static/js/85.33ebdeb4.chunk.js": "/watches/static/js/85.33ebdeb4.chunk.js",
+    "static/js/85.66c13512.chunk.js": "/watches/static/js/85.66c13512.chunk.js",
     "static/media/image3.jpg": "/watches/static/media/image3.ed0a5ef28f3b8d515fc7.jpg",
     "static/media/image2.jpg": "/watches/static/media/image2.de67787696dec2f57f72.jpg",
     "static/media/image3.webp": "/watches/static/media/image3.5175297131e2971613b6.webp",
@@ -18,21 +18,24 @@
     "static/media/image6.jpg": "/watches/static/media/image6.3c48913310e742de86f3.jpg",
     "static/media/image4.webp": "/watches/static/media/image4.cd5351b7ac8640c5970b.webp",
     "static/media/image6.webp": "/watches/static/media/image6.c4ad334b87020bfd423d.webp",
+    "static/media/certyfikat2.jpg": "/watches/static/media/certyfikat2.2954430e40a0752a9778.jpg",
     "static/media/image7.webp": "/watches/static/media/image7.541de07ac441f150d1bf.webp",
     "static/media/image7.jpg": "/watches/static/media/image7.e7c1f5dc33d3ab153928.jpg",
+    "static/media/certyfikat1.jpg": "/watches/static/media/certyfikat1.d3ce1620c1ff26907621.jpg",
+    "static/media/certyfikat3.jpg": "/watches/static/media/certyfikat3.efb9662aa8b2d11a40bd.jpg",
     "static/media/certina.webp": "/watches/static/media/certina.34a5c6c32d13c5ff0950.webp",
     "static/media/longines.webp": "/watches/static/media/longines.290dfc3f3a5e6a4dc1e4.webp",
     "static/media/hamilton.webp": "/watches/static/media/hamilton.6f29a38163e69f028e93.webp",
     "static/media/omega.webp": "/watches/static/media/omega.06f15bfeba3a61765062.webp",
     "static/media/tissot.webp": "/watches/static/media/tissot.89d0be0131d938d9417d.webp",
     "index.html": "/watches/index.html",
-    "main.ac3f70e8.css.map": "/watches/static/css/main.ac3f70e8.css.map",
-    "main.698853e5.js.map": "/watches/static/js/main.698853e5.js.map",
+    "main.49d6d458.css.map": "/watches/static/css/main.49d6d458.css.map",
+    "main.bf196151.js.map": "/watches/static/js/main.bf196151.js.map",
     "85.b953a0bf.chunk.css.map": "/watches/static/css/85.b953a0bf.chunk.css.map",
-    "85.33ebdeb4.chunk.js.map": "/watches/static/js/85.33ebdeb4.chunk.js.map"
+    "85.66c13512.chunk.js.map": "/watches/static/js/85.66c13512.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac3f70e8.css",
-    "static/js/main.698853e5.js"
+    "static/css/main.49d6d458.css",
+    "static/js/main.bf196151.js"
   ]
 }
