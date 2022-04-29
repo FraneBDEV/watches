@@ -6,7 +6,7 @@ import NotFound from './components/NotFound'
 const Gallery = React.lazy(() => import("./components/Gallery"))
 
 ReactDOM.render(
-    <HashRouter>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <Routes>
       <Route exact path="/" element={<MainPage />} />
       <Route path="/gallery" element={
