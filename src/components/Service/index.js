@@ -62,6 +62,13 @@ export default function Service() {
                 alt="Third slide"
                 />
             </Carousel.Item>
+            <Carousel.Item>
+                <img
+                className="d-block mx-auto"
+                src={certyfikat4}
+                alt="Fourth slide"
+                />
+            </Carousel.Item>
         </Carousel>
       <p style={{fontFamily: 'Orbitron'}}>Zapraszamy ze wszystkimi innymi markami zegarków, które potrzebują fachowej pomocy. Na wykonane usługi udzielamy 2 letniej gwarancji.</p>
     </div>
