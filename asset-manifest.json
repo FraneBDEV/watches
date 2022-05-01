@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9f7c44e4.css",
-    "main.js": "/static/js/main.984b36ec.js",
+    "main.js": "/static/js/main.efcb3770.js",
     "static/css/85.b953a0bf.chunk.css": "/static/css/85.b953a0bf.chunk.css",
     "static/js/85.fb184cf2.chunk.js": "/static/js/85.fb184cf2.chunk.js",
     "static/media/image3.webp": "/static/media/image3.5175297131e2971613b6.webp",
@@ -11,6 +11,7 @@
     "static/media/maciej.webp": "/static/media/maciej.73692ebb80e6ed235eb4.webp",
     "static/media/image5.webp": "/static/media/image5.c9a2c45e97a71a2405de.webp",
     "static/media/image4.webp": "/static/media/image4.cd5351b7ac8640c5970b.webp",
+    "static/media/certyfikat4.jpg": "/static/media/certyfikat4.7541480e62b4b598a81e.jpg",
     "static/media/IMG-20220420-WA0003.webp": "/static/media/IMG-20220420-WA0003.6d0d28f6e50291bd64e3.webp",
     "static/media/image6.webp": "/static/media/image6.c4ad334b87020bfd423d.webp",
     "static/media/IMG-20220420-WA0004.webp": "/static/media/IMG-20220420-WA0004.fbc6dd7564200128c8b2.webp",
@@ -31,12 +32,12 @@
     "static/media/tissot.webp": "/static/media/tissot.89d0be0131d938d9417d.webp",
     "index.html": "/index.html",
     "main.9f7c44e4.css.map": "/static/css/main.9f7c44e4.css.map",
-    "main.984b36ec.js.map": "/static/js/main.984b36ec.js.map",
+    "main.efcb3770.js.map": "/static/js/main.efcb3770.js.map",
     "85.b953a0bf.chunk.css.map": "/static/css/85.b953a0bf.chunk.css.map",
     "85.fb184cf2.chunk.js.map": "/static/js/85.fb184cf2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9f7c44e4.css",
-    "static/js/main.984b36ec.js"
+    "static/js/main.efcb3770.js"
   ]
 }
