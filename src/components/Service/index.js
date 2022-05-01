@@ -12,6 +12,7 @@ import tissot from './tissot.webp'
 import certyfikat1 from './certyfikaty/certyfikat1.jpg'
 import certyfikat2 from './certyfikaty/certyfikat2.jpg'
 import certyfikat3 from './certyfikaty/certyfikat3.jpg'
+import certyfikat4 from './certyfikaty/certyfikat4.jpg'
 
 export default function Service() {
   return (
