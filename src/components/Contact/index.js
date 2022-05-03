@@ -12,7 +12,7 @@ export default function Contact() {
             <h1>Kontakt</h1>
             <hr />
             <form
-                action="https://formspree.io/f/xvolqbno"
+                action="https://formspree.io/f/mayvlvgk"
                 method="POST"
             >
                 <input className='input name col-lg-6' name="name" placeholder='Imie i nazwisko' required/>

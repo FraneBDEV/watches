@@ -24,6 +24,7 @@ export default function Gallery() {
         {
           thirdPart.map(item => (
             <img
+            loading='lazy'
             src={item}
             className="w-100 shadow-1-strong rounded mb-4"
             alt='img'
