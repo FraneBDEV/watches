@@ -13,6 +13,7 @@ import certyfikat1 from './certyfikaty/certyfikat1.jpg'
 import certyfikat2 from './certyfikaty/certyfikat2.jpg'
 import certyfikat3 from './certyfikaty/certyfikat3.jpg'
 import certyfikat4 from './certyfikaty/certyfikat4.jpg'
+import certyfikat5 from './certyfikaty/certyfikat5.jpg'
 
 export default function Service() {
   return (
@@ -68,6 +69,13 @@ export default function Service() {
                 className="d-block mx-auto"
                 src={certyfikat4}
                 alt="Fourth slide"
+                />
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                className="d-block mx-auto"
+                src={certyfikat5}
+                alt="Fifth slide"
                 />
             </Carousel.Item>
         </Carousel>
