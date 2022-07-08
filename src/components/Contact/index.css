@@ -1,0 +1,81 @@
+* {
+    --color: rgba(0, 0, 0, 0.5);
+    --contact-bg-color: white;
+}
+.contact-page {
+    height: 100%;
+}
+.map {
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),url('./bg.webp');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 30%;
+    position: relative;
+}
+.contact {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+.contact hr {
+    height: 2px !important;
+}
+.contact form .inputBox {
+    position: relative;
+    width: 70%;
+    margin: 10px;
+    margin-inline: auto;
+}
+.contact form .inputBox textarea,
+.contact form .inputBox input {
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 0;
+    border-left: 1px solid var(--color);
+    transition: 500ms;
+}
+.contact form .inputBox span {
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 1em;
+    color: var(--color);
+    text-transform: uppercase;
+    transition: 500ms;
+}
+.contact form .inputBox input:valid ~ span,
+.contact form .inputBox input:focus ~ span {
+    color: white;
+    transform: translate(10px, -7px);
+    font-size: 0.65em;
+    padding: 0 10px;
+    background-color: var(--bg-color);
+    border-radius: 3px;
+}
+.contact form .inputBox textarea:valid ~ span,
+.contact form .inputBox textarea:focus ~ span {
+    color: var(--bg-color);
+    transform: translate(10px, -7px);
+    font-size: 0.65em;
+    padding: 0 10px;
+    background-color: var(--contact-bg-color);
+    border-left: 1px solid var(--bg-color);
+    border-right: 1px solid var(--bg-color);
+}
+.contact form .input-button {
+    border: 0;
+    outline: 0;
+    border: 1px solid var(--bg-color);
+    padding: 5px 10px;
+    background-color: white;
+    position: relative;
+}
+.contact form .input-button:hover,
+.contact form .input-button:focus {
+    background-color: var(--bg-color);
+    color: white
+}

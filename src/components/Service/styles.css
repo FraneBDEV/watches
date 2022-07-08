@@ -35,3 +35,7 @@
     max-width: 90vw;
     object-fit: contain;
 }
+.service .carousel-control-next,
+.service .carousel-control-prev {
+    filter: invert(100%);
+}

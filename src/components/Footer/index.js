@@ -1,21 +1,17 @@
 import React from 'react'
-import "./styles.css"
+import './styles.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link';
 
 export default function Footer() {
   return (
-    <div className='footer'>
-      <div className="footer-item">
-        <p>
-          Menu
-        </p>
+    <div className="footer">
+        <div className="footer-item">
+        <h6>Menu</h6>
         <HashLink className='a' to='#home'>Home</HashLink>
         <br />
         <HashLink className='a' to='#firm'>Firma</HashLink>
-        <br />
-        <HashLink className='a' to='#news'>Na Temat</HashLink>
         <br />
         <Link className='a' to='/gallery'>Galeria</Link>
         <br />
@@ -24,9 +20,7 @@ export default function Footer() {
         <HashLink className='a' to='#service'>Serwis</HashLink>
       </div>
       <div className="footer-item">
-        <p>
-          Kontakt
-        </p>
+        <h6>Kontakt</h6>
         📞(+48) 502 909 763
         <br />
         🏠ul. Puławska 96 02-620 Warszawa
