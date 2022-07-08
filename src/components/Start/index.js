@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Start() {
   return (
-    <div className="start-page row" id='home'>
+    <div className="start-page row g-0" id='home'>
       <div className="image col-md-6 col-sm-12">
         <img src={maciej} alt="" />
         </div>

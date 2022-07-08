@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Contact() {
   return (
-    <div className="contact-page row" id='contact'>
+    <div className="contact-page row g-0" id='contact'>
         <div className="map col-lg-8">
         </div>
         <div className="contact col-lg-4">
