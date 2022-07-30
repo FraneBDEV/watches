@@ -9,15 +9,15 @@ export default function Footer() {
     <div className="footer">
         <div className="footer-item">
         <h6>Menu</h6>
-        <HashLink to='#home'>Home</HashLink>
+        <HashLink to='/#home'>Home</HashLink>
         <br />
-        <HashLink to='#firm'>Firma</HashLink>
+        <HashLink to='/#firm'>Firma</HashLink>
         <br />
         <Link to='/gallery'>Galeria</Link>
         <br />
-        <HashLink to='#contact'>Kontakt</HashLink>
+        <HashLink to='/#contact'>Kontakt</HashLink>
         <br />
-        <HashLink to='#service'>Serwis</HashLink>
+        <HashLink to='/#service'>Serwis</HashLink>
       </div>
       <div className="footer-item">
         <h6>Kontakt</h6>
