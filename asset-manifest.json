@@ -1,14 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.3aa01978.css",
-    "main.js": "/static/js/main.9458441d.js",
+    "main.css": "/static/css/main.46c5fe40.css",
+    "main.js": "/static/js/main.cd541ac8.js",
+    "static/media/rotomat.jpg": "/static/media/rotomat.4020ca1dd4e934cac332.jpg",
+    "static/media/porownanie.webp": "/static/media/porownanie.1ccb4cdaae2aab7dedb3.webp",
     "static/media/image3.webp": "/static/media/image3.5175297131e2971613b6.webp",
     "static/media/image2.webp": "/static/media/image2.2028b142fc0281720251.webp",
     "static/media/image1.webp": "/static/media/image1.dd8edd16e96f39f58506.webp",
-    "static/media/bg.webp": "/static/media/bg.838c138c54e1739694a1.webp",
+    "static/media/bg.webp": "/static/media/bg.a2d3446cb6b53bd518ed.webp",
     "static/media/maciej.jpg": "/static/media/maciej.fca161e3f1c8b79765d2.jpg",
     "static/media/witryna_04.jpg": "/static/media/witryna_04.f3e4069ef809c959eb07.jpg",
     "static/media/IMG-20220328-WA0011.jpg": "/static/media/IMG-20220328-WA0011.a065aa74ce6a49dc2d37.jpg",
+    "static/media/dat.jpg": "/static/media/dat.eb1249759b3d29085b65.jpg",
     "static/media/IMG-20220330-WA0000.jpg": "/static/media/IMG-20220330-WA0000.e5d39e1d94e87b1cc690.jpg",
     "static/media/image5.webp": "/static/media/image5.c9a2c45e97a71a2405de.webp",
     "static/media/image4.webp": "/static/media/image4.cd5351b7ac8640c5970b.webp",
@@ -41,6 +44,7 @@
     "static/media/IMG-20220420-WA0000.webp": "/static/media/IMG-20220420-WA0000.f07b61540f7674f19ebe.webp",
     "static/media/IMG-20220329-WA0016.jpg": "/static/media/IMG-20220329-WA0016.bc2ccb29d95b325ff461.jpg",
     "static/media/IMG-20220420-WA0002.webp": "/static/media/IMG-20220420-WA0002.75f8a982d090bb90429a.webp",
+    "static/media/bg.jpg": "/static/media/bg.2fa52102b0d50cb9b4a1.jpg",
     "static/media/IMG-20220420-WA0005.webp": "/static/media/IMG-20220420-WA0005.7510f033e11c387f4121.webp",
     "static/media/certina.webp": "/static/media/certina.34a5c6c32d13c5ff0950.webp",
     "static/media/longines.webp": "/static/media/longines.290dfc3f3a5e6a4dc1e4.webp",
@@ -48,11 +52,11 @@
     "static/media/omega.webp": "/static/media/omega.06f15bfeba3a61765062.webp",
     "static/media/tissot.webp": "/static/media/tissot.89d0be0131d938d9417d.webp",
     "index.html": "/index.html",
-    "main.3aa01978.css.map": "/static/css/main.3aa01978.css.map",
-    "main.9458441d.js.map": "/static/js/main.9458441d.js.map"
+    "main.46c5fe40.css.map": "/static/css/main.46c5fe40.css.map",
+    "main.cd541ac8.js.map": "/static/js/main.cd541ac8.js.map"
   },
   "entrypoints": [
-    "static/css/main.3aa01978.css",
-    "static/js/main.9458441d.js"
+    "static/css/main.46c5fe40.css",
+    "static/js/main.cd541ac8.js"
   ]
 }
