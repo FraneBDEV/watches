@@ -15,6 +15,7 @@ const secondPart = images.splice(-threePartIndex);
 const firstPart = images;     
 
 export default function Gallery() {
+window.scrollTo(0, 0);
   return (
     <div className='gallery'>
       <h1>Galeria</h1>

@@ -1,0 +1,32 @@
+.parallax {
+  min-height: 20%;
+  background: 
+        linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+    ),
+    url("bg.webp");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+@media only screen and (max-device-width: 900px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
+.parallax a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: azure;
+  font-family: 'Bebas Neue';
+  
+}
+.parallax a:hover {
+  text-decoration: none;
+  color: azure;
+}

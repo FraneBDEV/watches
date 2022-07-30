@@ -1,0 +1,39 @@
+.news {
+    min-height: 20%;
+    position: relative;
+    background: 
+        linear-gradient(
+        rgba(0, 0, 0, 0.4), 
+        rgba(0, 0, 0, 0.4)
+    ),
+    url("bg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: azure;
+}
+.news .center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+}
+.news .center p {
+    text-align: center;
+    margin: 0;
+}
+.news .center .inline {
+    display: flex;
+}
+.news .center .inline h1 {
+    font-family: 'Bebas Neue';
+    padding: 10px;
+}
+@media only screen and (max-device-width: 900px) {
+    .news {
+      background-attachment: scroll;
+    }
+  }
+

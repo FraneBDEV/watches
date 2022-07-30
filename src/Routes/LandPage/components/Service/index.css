@@ -1,0 +1,41 @@
+
+.service {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+}
+.service hr {
+    height: 2px;
+}
+.service h1, .service p {
+    text-align: center;
+}
+.service p.b {
+    font-weight: bolder;
+}
+.logos {
+    height: fit-content;
+    list-style-type: none; 
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.logos li {
+    display: inline-block;
+    margin-bottom: 40px;
+}
+.service .carousel {
+    margin-inline: auto;
+    width: fit-content;
+}
+.service .carousel-item img {
+    height: 500px;
+    max-width: 90vw;
+    object-fit: contain;
+}
+.service .carousel-control-next,
+.service .carousel-control-prev {
+    filter: invert(100%);
+}

@@ -1,0 +1,85 @@
+
+.article {
+    width: 100%;
+}
+.article .title-wrapper {
+    height: 40vh;
+}
+.article .title-wrapper .bg {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    background: 
+        linear-gradient(
+        rgba(0, 0, 0, 0.8), 
+        rgba(0, 0, 0, 0.8)
+    ),
+    url("bg.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.article .title-wrapper .bg h1 {
+    text-align: center;
+    font-family: 'Bebas Neue';
+    color: azure;
+    width: 100%;
+    padding: 10px;
+    font-size: 65px;
+}
+.article .title-wrapper .icon-wrapper {
+    position: absolute;
+    width: 75px;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 2px solid black;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+.article .title-wrapper .icon-wrapper .icon {
+    font-size: 50px;
+}
+.article .title-wrapper .icon-wrapper .rotated {
+    animation: rotate 500ms forwards ;
+}
+.article .title-wrapper .icon-wrapper a {
+    color: black;
+    text-decoration: none;
+}
+.article .text-wrapper .text {
+    font-size: 1.125em;
+    margin-inline: auto;
+    margin-top: 50px;
+    text-align: justify;
+}
+.article .text-wrapper .text p {
+    padding: 10px 0 0 10px;
+}
+.article .text-wrapper .text img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: contain;
+    padding: 1rem 0 1rem 0;
+}
+@media only screen and (max-width: 700px) {
+    .article .text-wrapper .text img {
+        padding: 0;
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(180deg);
+    }
+}
