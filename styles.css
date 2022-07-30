@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 html, body, #root {
-    margin: 0;
-    padding: 0;
     height: 100%;
     width: 100%;
     scroll-padding: 55px;
+    margin: 0;
+    padding: 0;
 }
