@@ -26,16 +26,16 @@ export default function Header(props) {
         <a className='home' href="/">Trzosek</a>
         <ul>
             <li>
-            <HashLink to='/#firm'><a href="/">Firma</a></HashLink>             
+            <HashLink to='/#firm'>Firma</HashLink>             
             </li>
             <li>
-            <HashLink to='/#contact'><a href="/">Kontakt</a></HashLink>     
+            <HashLink to='/#contact'>Kontakt</HashLink>     
             </li>
             <li>
-            <HashLink to='/#service'><a href="/">Serwis</a></HashLink>          
+            <HashLink to='/#service'>Serwis</HashLink>          
             </li>
             <li>
-            <Link to='/gallery'><a href="/">Galeria</a></Link>
+            <Link to='/gallery'>Galeria</Link>
             </li>
         </ul>
     </header>
@@ -46,18 +46,18 @@ export default function Header(props) {
         </div>
     <nav className={showNavBar ? 'show' : ''} >
         <ul>
-            {props.return ? (<li><HashLink to='/'><a href=''>Powrót</a></HashLink></li>) : ''}              
+            {props.return ? (<li><HashLink to='/'>Powrót</HashLink></li>) : ''}              
             <li>
-            <HashLink to='/#firm'><a href="/">Firma</a></HashLink>             
+            <HashLink to='/#firm'>Firma</HashLink>             
             </li>
             <li>
-            <HashLink to='/#contact'><a href="/">Kontakt</a></HashLink>     
+            <HashLink to='/#contact'>Kontakt</HashLink>     
             </li>
             <li>
-            <HashLink to='/#service'><a href="/">Serwis</a></HashLink>          
+            <HashLink to='/#service'>Serwis</HashLink>          
             </li>
             <li>
-            <Link to='/gallery'><a href="/">Galeria</a></Link> 
+            <Link to='/gallery'>Galeria</Link> 
             </li>
         </ul>
     </nav>
