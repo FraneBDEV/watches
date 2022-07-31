@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.46c5fe40.css",
-    "main.js": "/static/js/main.03b1011a.js",
+    "main.css": "/static/css/main.1bd3314b.css",
+    "main.js": "/static/js/main.32949c8f.js",
     "static/media/rotomat.jpg": "/static/media/rotomat.4020ca1dd4e934cac332.jpg",
     "static/media/porownanie.webp": "/static/media/porownanie.1ccb4cdaae2aab7dedb3.webp",
     "static/media/image3.webp": "/static/media/image3.5175297131e2971613b6.webp",
@@ -52,11 +52,11 @@
     "static/media/omega.webp": "/static/media/omega.06f15bfeba3a61765062.webp",
     "static/media/tissot.webp": "/static/media/tissot.89d0be0131d938d9417d.webp",
     "index.html": "/index.html",
-    "main.46c5fe40.css.map": "/static/css/main.46c5fe40.css.map",
-    "main.03b1011a.js.map": "/static/js/main.03b1011a.js.map"
+    "main.1bd3314b.css.map": "/static/css/main.1bd3314b.css.map",
+    "main.32949c8f.js.map": "/static/js/main.32949c8f.js.map"
   },
   "entrypoints": [
-    "static/css/main.46c5fe40.css",
-    "static/js/main.03b1011a.js"
+    "static/css/main.1bd3314b.css",
+    "static/js/main.32949c8f.js"
   ]
 }
