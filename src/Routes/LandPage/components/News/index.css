@@ -18,17 +18,17 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: fit-content;
+    width: max-content;
 }
 .news .center p {
     text-align: center;
     margin: 0;
 }
 .news .center .inline {
-    display: flex;
+    display: flex; 
 }
 .news .center .inline h1 {
-    font-family: 'Bebas Neue';
+    font-family: 'Bebas Neue';  
     padding: 10px;
 }
 @media only screen and (max-device-width: 900px) {

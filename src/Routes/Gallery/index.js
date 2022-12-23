@@ -8,6 +8,7 @@ function importAll(r) {
 
 const images = importAll(require.context('./Photos', false, /\.(png|jpg|svg|webp)$/));
 
+
 const threePartIndex = Math.ceil(images.length / 3);
 
 const thirdPart = images.splice(-threePartIndex);

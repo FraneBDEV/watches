@@ -39,6 +39,7 @@ export default function Desc() {
   }, [])
   
   return (
+    // https://codepen.io/kiumad/pen/YzaXpQr
     <div className="description-wrapper">
         <div className="app">
           <div className="c-wrapper">
