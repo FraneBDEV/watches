@@ -4,6 +4,7 @@ import maciej from './maciej.jpg'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { HashLink } from 'react-router-hash-link';
 
+
 export default function Start() {
   return (
     <div className="start-page row g-0" id='home'>
