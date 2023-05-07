@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8e3ad05f.css",
-    "main.js": "/static/js/main.edc07de6.js",
+    "main.js": "/static/js/main.c3b54766.js",
     "static/media/01rotomat.jpg": "/static/media/01rotomat.4020ca1dd4e934cac332.jpg",
     "static/media/rotomat.jpg": "/static/media/rotomat.4020ca1dd4e934cac332.jpg",
     "static/media/01porownanie.webp": "/static/media/01porownanie.1ccb4cdaae2aab7dedb3.webp",
@@ -9,6 +9,7 @@
     "static/media/image3.webp": "/static/media/image3.5175297131e2971613b6.webp",
     "static/media/image2.webp": "/static/media/image2.2028b142fc0281720251.webp",
     "static/media/image1.webp": "/static/media/image1.dd8edd16e96f39f58506.webp",
+    "static/media/certyfikat5.jpg": "/static/media/certyfikat5.9eb022c190c5c327e6ff.jpg",
     "static/media/01background.webp": "/static/media/01background.a2d3446cb6b53bd518ed.webp",
     "static/media/bg.webp": "/static/media/bg.a2d3446cb6b53bd518ed.webp",
     "static/media/maciej.jpg": "/static/media/maciej.fca161e3f1c8b79765d2.jpg",
@@ -57,10 +58,10 @@
     "static/media/tissot.webp": "/static/media/tissot.89d0be0131d938d9417d.webp",
     "index.html": "/index.html",
     "main.8e3ad05f.css.map": "/static/css/main.8e3ad05f.css.map",
-    "main.edc07de6.js.map": "/static/js/main.edc07de6.js.map"
+    "main.c3b54766.js.map": "/static/js/main.c3b54766.js.map"
   },
   "entrypoints": [
     "static/css/main.8e3ad05f.css",
-    "static/js/main.edc07de6.js"
+    "static/js/main.c3b54766.js"
   ]
 }
