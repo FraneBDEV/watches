@@ -119,8 +119,62 @@
     }
 }
 
+.sidepanel-wrapper {
+    display: flex;
+    position: fixed;
+    right: 0;
+    top: 100px;
+    width: min-content;
+    z-index: 100;
+}
 
+.side-panel-toggle {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    display: grid;
+    place-items: center;
+  
+    color: #ffffff;
+    background: #009578;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .side-panel-toggle:hover {
+    background: #007960;
+  }
+  
+  .side-panel {
+    display: none;
+    right: 0;
+    width: 200px;
+    flex-shrink: 0;
+    padding: 20px;
+    color: #ffffff;
+    background: #009578;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+  }
 
+  .side-panel-open {
+    display: block;
+  }
+  .sp-icon-rotate {
+    rotate: 180deg
+  }
+
+  .side-panel a {
+    color: white;
+  }
+  .side-panel a:hover {
+    color: blue;
+  }
+  .side-panel img {
+    width: 180px;
+    margin-right: 20px;
+  }
 
 
 
