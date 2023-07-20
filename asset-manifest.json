@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.59dd405c.css",
-    "main.js": "/static/js/main.b59828cd.js",
+    "main.js": "/static/js/main.a34d0de8.js",
     "static/media/01rotomat.jpg": "/static/media/01rotomat.4020ca1dd4e934cac332.jpg",
     "static/media/rotomat.jpg": "/static/media/rotomat.4020ca1dd4e934cac332.jpg",
     "static/media/01porownanie.webp": "/static/media/01porownanie.1ccb4cdaae2aab7dedb3.webp",
@@ -58,10 +58,10 @@
     "static/media/tissot.webp": "/static/media/tissot.89d0be0131d938d9417d.webp",
     "index.html": "/index.html",
     "main.59dd405c.css.map": "/static/css/main.59dd405c.css.map",
-    "main.b59828cd.js.map": "/static/js/main.b59828cd.js.map"
+    "main.a34d0de8.js.map": "/static/js/main.a34d0de8.js.map"
   },
   "entrypoints": [
     "static/css/main.59dd405c.css",
-    "static/js/main.b59828cd.js"
+    "static/js/main.a34d0de8.js"
   ]
 }
