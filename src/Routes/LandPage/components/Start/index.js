@@ -24,7 +24,7 @@ export default function Start() {
       </button>
       <div className="side-panel">
         <img src="https://niewiadow.pl/wp-content/uploads/2021/12/CG-01.png" alt="" />
-        <a href="https://niewiadow.pl/">Przyczepy Niewiadów</a>  - Twój dom jest zawsze tam gdzie Ty. Adam Baś zaprasza do Nordyński Centrum Motoryzacyjne w Łodzi.
+        <a href="https://nordynski-nowe.otomoto.pl/inventory">Przyczepy Niewiadów</a>  - Twój dom jest zawsze tam gdzie Ty. Adam Baś zaprasza do Nordyński Centrum Motoryzacyjne w Łodzi.
     </div>
       </div>
       
