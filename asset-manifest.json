@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.59dd405c.css",
-    "main.js": "/static/js/main.72f6e0b3.js",
+    "main.js": "/static/js/main.0fc1e74a.js",
     "static/media/01rotomat.jpg": "/static/media/01rotomat.4020ca1dd4e934cac332.jpg",
     "static/media/rotomat.jpg": "/static/media/rotomat.4020ca1dd4e934cac332.jpg",
     "static/media/certyfikat6.jpg": "/static/media/certyfikat6.a785ef3491037e271863.jpg",
@@ -51,6 +51,7 @@
     "static/media/IMG-20220329-WA0016.jpg": "/static/media/IMG-20220329-WA0016.bc2ccb29d95b325ff461.jpg",
     "static/media/IMG-20220420-WA0002.webp": "/static/media/IMG-20220420-WA0002.75f8a982d090bb90429a.webp",
     "static/media/bg.jpg": "/static/media/bg.2fa52102b0d50cb9b4a1.jpg",
+    "static/media/1 1959 warszawa pulawska.jpg": "/static/media/1 1959 warszawa pulawska.001409453dfed46fbd6e.jpg",
     "static/media/IMG-20220420-WA0005.webp": "/static/media/IMG-20220420-WA0005.7510f033e11c387f4121.webp",
     "static/media/certina.webp": "/static/media/certina.34a5c6c32d13c5ff0950.webp",
     "static/media/longines.webp": "/static/media/longines.290dfc3f3a5e6a4dc1e4.webp",
@@ -59,10 +60,10 @@
     "static/media/tissot.webp": "/static/media/tissot.89d0be0131d938d9417d.webp",
     "index.html": "/index.html",
     "main.59dd405c.css.map": "/static/css/main.59dd405c.css.map",
-    "main.72f6e0b3.js.map": "/static/js/main.72f6e0b3.js.map"
+    "main.0fc1e74a.js.map": "/static/js/main.0fc1e74a.js.map"
   },
   "entrypoints": [
     "static/css/main.59dd405c.css",
-    "static/js/main.72f6e0b3.js"
+    "static/js/main.0fc1e74a.js"
   ]
 }
